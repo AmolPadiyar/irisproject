@@ -1,0 +1,1 @@
+model_path = "project_file\iris_logistic.pkl"

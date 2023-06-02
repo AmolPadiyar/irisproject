@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to Iris Flower Prediction System</title>
+</head>
+<body style="background-image: url('https://png.pngtree.com/background/20221105/original/pngtree-rectangle-corner-spring-flower-floral-plant-frame-card-vector-decoration-picture-image_1946860.jpg');
+background-attachment: fixed;
+background-repeat: no-repeat;
+background-size:cover;">
+    <b style="font-size: 30px;">
+    <h1 align="center"style="background-color: aqua;">Welcome to Iris Flower Prediction System</h1>
+    <h6 align="center">
+    <form method="GET" action ="/get_pred">
+
+            <label style="background-color: aqua;">Sepal Length:</label>
+            <input type = "text" name = "SepalLength" >
+            </select>
+
+
+            <label style="background-color: aqua;">Sepal Width:</label>
+            <input type = "text" name = "SepalWidth">
+            </select>
+
+
+            <label style="background-color: aqua;">Petal Length:</label>
+            <input type = "text" name = "PetalLength">
+            </select>
+
+
+
+            <label style="background-color: aqua;">Petal Width:</label>
+            <input type = "text" name="PetalWidth">
+            </select>
+
+            <br>
+            <br>
+            <input type = "submit" value = "SUBMIT">
+
+            <br>
+            <p><b><h1>{{flower}}</h1></p>
+            <img src="{{iris}}" width="300" height="300">
+
+
+    </h6>
+    </b>
+        </form>
+
+
+</body>
+
+
+</html>
